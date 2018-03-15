@@ -1,3 +1,8 @@
+/*
+	Example proposed by Remi Padiolleau on 2018-03-14
+	Based on https://msdn.microsoft.com/en-us/library/windows/desktop/ms686919(v=vs.85).aspx
+*/
+
 #include <windows.h> // needed for Fibers functions
 #include <iostream>
 
@@ -73,3 +78,15 @@ int main()
 
 	return 0;
 }
+
+
+/*
+RESULT :
+---------------
+Hello
+Fibre 1
+Fibre 2
+Goodbye
+...
+---------------
+*/
